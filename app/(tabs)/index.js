@@ -1,9 +1,11 @@
-import { Text, View } from 'react-native'
+import { Card, Text } from 'react-native-paper'
 
 export default function Home() {
   return (
-    <View>
-      <Text>Home</Text>
-    </View>
+    <>
+      <Card>
+        <Text>Home</Text>
+      </Card>
+    </>
   )
 }
